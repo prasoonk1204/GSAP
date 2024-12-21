@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: orangered;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: #38b3ff;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: lightseagreen;
+}
+
+#page1, #page2, #page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background:linear-gradient(#f3feff, #131313)
+}

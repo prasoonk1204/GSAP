@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x:hidden ;
+}
+#page1, #page2, #page3{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+#page2 h1{
+    font-size: 40vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: aliceblue;
+    filter: drop-shadow(10px 5px 20px #9470ff);
+}
